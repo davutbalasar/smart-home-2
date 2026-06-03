@@ -209,3 +209,11 @@ Veri Toplama  →  Model Eğitimi  →  Tahmin & Kontrol
 1. Geçmiş kullanım verileri CSV formatında toplanır
 2. `train_model.py` veriyi normalize eder, modeli eğitir, `models/` klasörüne kaydeder
 3. GUI veya CLI, kaydedilen modeli yükleyerek gerçek zamanlı tahmin üretir
+
+---
+
+## Katkıda Bulunanlar
+
+- [Muhammed Davut Bayram Balasar](https://github.com/davutbalasar)
+- [Büşra Bozdoğan](https://github.com/busrabozdogann)
+- [Fatih Arslanol](https://github.com/FatihARSLANOL)
