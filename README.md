@@ -214,6 +214,6 @@ Veri Toplama  →  Model Eğitimi  →  Tahmin & Kontrol
 
 ## Katkıda Bulunanlar
 
-- [Muhammed Davut Bayram Balasar](https://github.com/davutbalasar)
 - [Büşra Bozdoğan](https://github.com/busrabozdogann)
 - [Fatih Arslanol](https://github.com/FatihARSLANOL)
+- [Muhammed Davut Bayram Balasar](https://github.com/davutbalasar)
