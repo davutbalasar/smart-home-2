@@ -8,12 +8,13 @@ Bu repo, gerçek sensör verilerine dayalı olarak ev otomasyonunu öğrenen ü�
 
 | # | Proje | Model | Görev |
 |---|---|---|---|
-| 1 | [Akıllı Işık](#akıllı-ışık-kontrol-sistemi) | Dense NN | Işığın açık/kapalı olması gerektiğini tahmin eder |
-| 2 | [Akıllı Perde](#akıllı-perde-kontrol-sistemi) | LSTM | Perdenin açılma ve kapanma saatini tahmin eder |
-| 3 | [Yağış Tahmini](#️yağış-tahmini-sistemi) | Dense NN | Saat, sıcaklık ve neme göre yağış ihtimalini tahmin eder |
+| 1 | [Akıllı Işık](#isik) | Dense NN | Işığın açık/kapalı olması gerektiğini tahmin eder |
+| 2 | [Akıllı Perde](#perde) | LSTM | Perdenin açılma ve kapanma saatini tahmin eder |
+| 3 | [Yağış Tahmini](#️yagis) | Dense NN | Saat, sıcaklık ve neme göre yağış ihtimalini tahmin eder |
 
 ---
 
+<a name="isik"></a>
 ## Akıllı Işık Kontrol Sistemi
 
 Geçmiş kullanım verilerinden öğrenerek ışığın o an açık mı kapalı mı olması gerektiğini tahmin eden bir sinir ağı sistemi.
@@ -60,6 +61,7 @@ python src/predict_and_control.py
 
 ---
 
+<a name="perde"></a>
 ## Akıllı Perde Kontrol Sistemi
 
 Haftalık perde kullanım alışkanlıklarını öğrenerek ertesi gün için açılma ve kapanma saatini tahmin eden LSTM tabanlı sistem.
@@ -131,6 +133,7 @@ def close_curtain():
 
 ---
 
+<a name="yagis"></a>
 ## Yağış Tahmini Sistemi
 
 Saat, sıcaklık ve nem değerlerine bakarak yağış ihtimalini tahmin eden sinir ağı tabanlı sistem.
