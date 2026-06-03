@@ -10,7 +10,7 @@ Bu repo, gerçek sensör verilerine dayalı olarak ev otomasyonunu öğrenen ü�
 |---|---|---|---|
 | 1 | [Akıllı Işık](#isik) | Dense NN | Işığın açık/kapalı olması gerektiğini tahmin eder |
 | 2 | [Akıllı Perde](#perde) | LSTM | Perdenin açılma ve kapanma saatini tahmin eder |
-| 3 | [Yağış Tahmini](#️yagis) | Dense NN | Saat, sıcaklık ve neme göre yağış ihtimalini tahmin eder |
+| 3 | [Yağış Tahmini](#yagis) | Dense NN | Saat, sıcaklık ve neme göre yağış ihtimalini tahmin eder |
 
 ---
 
